@@ -1,0 +1,19 @@
+doctype html
+html
+  head 
+    title MJ Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar 
+        ul
+            div#logo 
+              img(src="/static/logo.png")
+              | MDA
+            li #[a(href="/") Home]
+            li #[a(href="/courses") Courses]
+             li #[a(href="/about") About Us]
+            li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer 
+        | Copyright Ⓒ 2023 MJdance.com | All rights reserved

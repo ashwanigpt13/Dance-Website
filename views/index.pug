@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css 
+
+block content
+    
+    section#introsection 
+        div Welcome to MJ Dance Academy 
+        div.small 'Dancing is Silent Poetry' 
+    
+    section#missionSection 
+        h2 Our Mission
+        div.card#cardd 
+         h3 Dance Perfection
+         div.card-box 
+          div.card-img 
+            img(src="/static/img/3.png")
+          div.card-content 
+            p  We will help you to achieve the level of perfeection.
+        div.card 
+         h3 Dance the way you like
+         div.card-box 
+          div.card-img 
+            img(src="/static/img/2.png")
+          div.card-content 
+            p  Free to choose the dance form you want to learn.
+        div.card 
+         h3 Expert Teaching
+         div.card-box 
+          div.card-img 
+            img(src="/static/img/1.png", alt="1")
+          div.card-content 
+            p  Learn in the supervision of Experts.
+
+    section#sponsersSection 
+        h2 Our Sponsors
+        div#sponsers 
+          img(src="/static/img/logo1.png", alt="Sponsers Image", class="spImage" )
+          img(src="/static/img/logo2.png", alt="Sponsers Image", class="spImage" )
+          img(src="/static/img/logo3.png", alt="Sponsers Image", class="spImage" )
+          img(src="/static/img/logo4.png", alt="Sponsers Image", class="spImage" )
+    
