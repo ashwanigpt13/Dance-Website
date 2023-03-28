@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: red;
+}
+h2{
+    margin-bottom: 15px;
+}
+.course-box{
+    height: 570px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #ddd9d9;
+    margin: 2px;
+    padding: 25px;
+}
+
+.course-img img{
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    transition: transform 850ms;
+}
+.course-img img:hover{
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 12px 5px grey;
+}
+.course-content{
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    width: 800px;
+
+}
+
